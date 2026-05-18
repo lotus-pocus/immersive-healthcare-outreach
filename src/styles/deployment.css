@@ -1,0 +1,259 @@
+.deployment-section {
+  background: #f5f5f2;
+  color: #111;
+  padding: 140px 7vw;
+}
+
+.deployment-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.deployment-intro {
+  max-width: 1100px;
+  margin-bottom: 80px;
+}
+
+.deployment-label,
+.markets-label {
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 28px;
+}
+
+.deployment-intro h2 {
+  font-family: "Tiempos", serif;
+
+  font-size: clamp(48px, 6vw, 96px);
+
+  line-height: 0.92;
+
+  letter-spacing: -0.04em;
+
+  max-width: 1100px;
+
+  margin-bottom: 34px;
+}
+
+.deployment-intro > p {
+  max-width: 760px;
+  font-size: 22px;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.68);
+}
+
+.deployment-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: stretch;
+  margin-bottom: 90px;
+}
+
+.deployment-copy,
+.deployment-panel {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 44px;
+}
+
+.deployment-copy h3,
+.deployment-panel h3 {
+  font-family: "Tiempos", serif;
+
+  font-size: 30px;
+
+  line-height: 1.18;
+
+  letter-spacing: -0.008em;
+
+  margin-bottom: 28px;
+
+  font-weight: 900;
+}
+
+.deployment-copy p {
+  font-size: 18px;
+  line-height: 1.65;
+  color: rgba(0, 0, 0, 0.68);
+  margin-bottom: 22px;
+}
+
+.deployment-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.deployment-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.deployment-highlights span {
+  display: block;
+  padding: 16px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.deployment-highlights span:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.markets-block {
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+  padding-top: 42px;
+}
+
+.markets-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+}
+
+.markets-grid span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 86px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 18px;
+}
+
+/* TABLET */
+
+@media (max-width: 1100px) {
+  .deployment-content {
+    grid-template-columns: 1fr;
+  }
+
+  .markets-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .deployment-section {
+    padding: 90px 24px;
+  }
+
+  .deployment-intro {
+    margin-bottom: 56px;
+  }
+
+  .deployment-intro h2 {
+    font-size: 40px;
+  }
+
+  .deployment-intro > p {
+    font-size: 19px;
+  }
+
+  .deployment-copy,
+  .deployment-panel {
+    padding: 28px;
+  }
+
+  .deployment-copy h3,
+  .deployment-panel h3 {
+    font-size: 25px;
+  }
+
+  .markets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .markets-grid span {
+    min-height: 68px;
+  }
+}
+
+.deployment-copy {
+  position: relative;
+  overflow: hidden;
+}
+
+.deployment-copy {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 32px;
+  align-items: end;
+  position: relative;
+  overflow: hidden;
+}
+
+.deployment-copy-text {
+  position: relative;
+  z-index: 2;
+}
+
+.deployment-device {
+  align-self: end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.deployment-device img {
+  width: clamp(320px, 38vw, 540px);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.9;
+}
+
+.deployment-events {
+  margin-top: 70px;
+}
+
+.deployment-events-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.deployment-events-grid span {
+  display: flex;
+  align-items: center;
+
+  min-height: 88px;
+
+  padding: 22px 24px;
+
+  background: #fff;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  font-size: 17px;
+  line-height: 1.45;
+
+  color: rgba(0, 0, 0, 0.72);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .deployment-events-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.deployment-copy {
+  grid-template-columns: 1fr;
+}
+
+.deployment-device {
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.deployment-device img {
+  width: 220px;
+}

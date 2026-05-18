@@ -1,0 +1,66 @@
+.intro-section {
+  background: #f5f5f2;
+  color: #111;
+  padding: 140px 7vw;
+}
+
+.intro-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.intro-label {
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.45);
+  margin-bottom: 32px;
+}
+
+.intro-heading {
+  font-family: "Tiempos", serif;
+
+  font-size: clamp(48px, 5.8vw, 96px);
+
+  line-height: 1.08;
+
+  letter-spacing: -0.012em;
+
+  max-width: 980px;
+
+  margin-bottom: 56px;
+
+  font-weight: 900;
+}
+
+.intro-copy {
+  max-width: 900px;
+}
+
+.intro-copy p {
+  font-size: 24px;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.72);
+  margin-bottom: 32px;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+  .intro-section {
+    padding: 90px 24px;
+  }
+
+  .intro-heading {
+    font-size: 42px;
+    line-height: 1.02;
+    margin-bottom: 40px;
+  }
+
+  .intro-copy p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+}

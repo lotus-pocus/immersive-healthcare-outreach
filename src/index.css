@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Lubalin";
+  src: url("./assets/fonts/LubalinGraphStd-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tiempos";
+  src: url("./assets/fonts/Tiempos Headline - Black.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0b0b;
+  color: white;
+  font-family: "Lubalin", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-title,
+.intro-heading,
+.cinematic-heading h2,
+.experience-heading h2,
+.pull-quote-container blockquote,
+.impact-heading h2,
+.deployment-copy h3,
+.related-heading h2,
+.cta-footer h2 {
+  font-family: "Tiempos", serif;
+}
+
+.anchor-nav a,
+.hero-eyebrow,
+.cinematic-label,
+.experience-label,
+.cinematic-bts-label,
+.pull-quote-container p,
+.cta-footer-label {
+  font-family: "Lubalin", sans-serif;
+}
+
+button,
+input,
+textarea,
+select,
+a {
+  font-family: inherit;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
