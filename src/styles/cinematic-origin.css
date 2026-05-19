@@ -40,9 +40,9 @@
 
 .cinematic-feature {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.75fr);
   gap: 32px;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .cinematic-media-column {

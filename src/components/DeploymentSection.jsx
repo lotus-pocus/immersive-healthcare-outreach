@@ -1,5 +1,12 @@
 import "../styles/deployment.css";
 import questImage from "../assets/images/MetaQuest_3.png";
+import spainFlag from "../assets/images/spain-flag-medium.png";
+import australiaFlag from "../assets/images/australia-flag-medium.png";
+import ukFlag from "../assets/images/united-kingdom-flag-medium.png";
+import italyFlag from "../assets/images/italy-flag-medium.png";
+import switzerlandFlag from "../assets/images/switzerland-flag-medium.png";
+import austriaFlag from "../assets/images/austria-flag-medium.png";
+import brazilFlag from "../assets/images/brazil-flag-medium.png";
 
 const highlights = [
   "Multi-market localisation",
@@ -11,13 +18,13 @@ const highlights = [
 ];
 
 const markets = [
-  "Spain",
-  "Australia",
-  "United Kingdom",
-  "Italy",
-  "Switzerland",
-  "Austria",
-  "Brazil",
+  { name: "Spain", flag: spainFlag },
+  { name: "Australia", flag: australiaFlag },
+  { name: "United Kingdom", flag: ukFlag },
+  { name: "Italy", flag: italyFlag },
+  { name: "Switzerland", flag: switzerlandFlag },
+  { name: "Austria", flag: austriaFlag },
+  { name: "Brazil", flag: brazilFlag },
 ];
 
 const events = [
@@ -93,7 +100,15 @@ export default function DeploymentSection() {
 
           <div className="markets-grid">
             {markets.map((market) => (
-              <span key={market}>{market}</span>
+              <span key={market.name}>
+                <img
+                  src={market.flag}
+                  alt={`${market.name} flag`}
+                  className="market-flag"
+                />
+
+                {market.name}
+              </span>
             ))}
           </div>
         </div>

@@ -124,6 +124,41 @@
   font-size: 18px;
 }
 
+.markets-grid span {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  min-height: 86px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  font-size: 18px;
+}
+
+.market-flag-wrap {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.market-flag {
+  max-width: 30px;
+  max-height: 20px;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.market-flag-wrap img[src*="australia"],
+.market-flag-wrap img[src*="united-kingdom"] {
+  transform: scale(1.2);
+}
+
 /* TABLET */
 
 @media (max-width: 1100px) {
