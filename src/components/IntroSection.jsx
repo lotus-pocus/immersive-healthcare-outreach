@@ -7,22 +7,16 @@ export default function IntroSection() {
         <p className="intro-label">CASE STUDY</p>
 
         <h2 className="intro-heading">
-          A healthcare storytelling platform spanning cinematic realtime film
-          and immersive VR.
+          Designed for healthcare congress and event audiences.
         </h2>
 
         <div className="intro-copy">
           <p>
-            Created with Havas Life for CSL, the project explored how cinematic
-            realtime storytelling could help communicate complex scientific
-            narratives within healthcare environments.
+            Developed alongside Havas Life for CSL, the project evolved from a cinematic realtime film into an immersive healthcare platform supporting international congress rollout and multi-market localisation.
           </p>
 
           <p>
-            Combining metaphorical worldbuilding, atmospheric visual design and
-            immersive technology, the experience was designed for congress and
-            event audiences seeking a more engaging way to explore treatment
-            narratives.
+            Designed for healthcare congress environments, the experience combined cinematic storytelling, immersive technology and scientific narrative design.
           </p>
         </div>
       </div>

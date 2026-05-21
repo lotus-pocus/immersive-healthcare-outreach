@@ -12,8 +12,7 @@ export default function CinematicOriginSection() {
           <p className="cinematic-label">CINEMATIC ORIGINS</p>
 
           <h2>
-            The story began with a one-shot cinematic journey through a
-            metaphorical world.
+            The experience began as a one-shot cinematic journey through an otherworldly landscape inspired by the human body.
           </h2>
         </div>
 
@@ -41,21 +40,11 @@ export default function CinematicOriginSection() {
 
           <div className="cinematic-feature-copy">
             <p>
-              The project began with a cinematic film created in Unreal Engine,
-              designed as a single continuous journey through a fictional world.
+              Using a hybrid pipeline of traditional CG tools and Unreal Engine, the film evolved into a continuous cinematic journey through a stylised biological world.
             </p>
 
             <p>
-              Using a realtime production workflow allowed environments, camera
-              paths, framing and storytelling moments to evolve with far greater
-              flexibility than traditional offline rendering pipelines.
-            </p>
-
-            <p>
-              The strength of the film led the client to explore how the same
-              world and narrative could be extended into VR, creating a
-              companion headset experience designed to sit alongside the
-              cinematic piece at congresses and conferences.
+              The strength of the cinematic piece led the client to expand the same world, visual language and narrative into VR, creating an immersive companion experience that maintained consistency across both formats.
             </p>
           </div>
         </div>
@@ -73,10 +62,7 @@ export default function CinematicOriginSection() {
             </h3>
 
             <p>
-              Realtime production techniques allowed environments, camera paths
-              and storytelling beats to evolve rapidly throughout development,
-              supporting a more flexible cinematic workflow than traditional CG
-              rendering pipelines.
+              Working within Unreal Engine allowed cinematic sequences, environments and pacing to be refined interactively throughout development, supporting a more collaborative and flexible creative process.
             </p>
           </div>
         </div>

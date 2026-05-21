@@ -43,7 +43,7 @@ export default function DeploymentSection() {
     <section className="deployment-section" id="deployment">
       <div className="deployment-container">
         <div className="deployment-intro">
-          <p className="deployment-label">DEPLOYMENT & LOCALISATION</p>
+          <p className="deployment-label">GLOBAL ROLLOUT</p>
 
           <h2>
             Designed for repeat deployment across international healthcare
@@ -51,9 +51,7 @@ export default function DeploymentSection() {
           </h2>
 
           <p>
-            Beyond the experience itself, the project evolved into a scalable
-            immersive communication platform supporting localisation, repeat
-            deployment and international congress rollout.
+            Beyond the experience itself, The project continued to evolve through ongoing localisation, headset preparation and congress deployment support across multiple international markets.
           </p>
         </div>
 

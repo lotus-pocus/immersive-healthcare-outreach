@@ -21,15 +21,14 @@ export default function Hero() {
         <p className="hero-eyebrow">HEALTHCARE IMMERSIVE EXPERIENCE</p>
 
         <h1>
-          Cinematic real-time
+          Immersive 
           <br />
           storytelling for <br />
           healthcare experiences.
         </h1>
 
         <p className="hero-description">
-          A cinematic realtime healthcare experience combining immersive
-          storytelling, scientific metaphor and virtual production workflows.
+          Developing both the cinematic CG content and immersive VR experience ensured visual consistency, narrative continuity and a unified healthcare storytelling approach across both formats.
         </p>
 
         <div className="hero-proof">

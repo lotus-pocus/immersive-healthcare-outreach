@@ -7,7 +7,7 @@ export default function CTAFooter() {
         <p className="cta-footer-label">LET’S TALK</p>
 
         <h2>
-          Exploring immersive storytelling, realtime experiences or VR
+          Exploring immersive storytelling, congress experiences or VR
           deployment?
         </h2>
 
