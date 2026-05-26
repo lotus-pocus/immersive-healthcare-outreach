@@ -1,8 +1,8 @@
 import "../styles/cinematic-origin.css";
 
-import planetendImg from "../assets/images/planetend.jpg";
-import lavaImg from "../assets/images/lava.jpg";
-import btsImage from "../assets/images/bts2.jpg";
+import neutrophilImg from "../assets/images/cinematic/neutrophil.jpg";
+import treesImg from "../assets/images/cinematic/trees.jpg";
+import planetendImg from "../assets/images/cinematic/planetend.jpg";
 
 export default function CinematicOriginSection() {
   return (
@@ -12,57 +12,53 @@ export default function CinematicOriginSection() {
           <p className="cinematic-label">CINEMATIC ORIGINS</p>
 
           <h2>
-            The experience began as a one-shot cinematic journey through an otherworldly landscape inspired by the human body.
+            The story began with a one-shot cinematic journey through a
+            metaphorical world.
           </h2>
         </div>
 
         <div className="cinematic-feature">
-          <div className="cinematic-media-column">
-            <div className="cinematic-video-frame">
-              <iframe
-                src="https://player.vimeo.com/video/1191967411?badge=0&autopause=0&player_id=0&app_id=58479"
-                title="Cinematic realtime healthcare film"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+          <div className="cinematic-video-frame">
+            <iframe
+              src="https://player.vimeo.com/video/1191967411?badge=0&autopause=0&player_id=0&app_id=58479"
+              title="Cinematic realtime healthcare film"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
 
-            <div className="cinematic-support-grid">
-              <div className="cinematic-image-small">
-                <img src={lavaImg} alt="Environmental metaphor" />
+          <div className="cinematic-support-grid">
+            <article className="cinematic-card">
+              <div className="cinematic-card-image">
+                <img src={neutrophilImg} alt="Fictional biological world" />
               </div>
+            </article>
 
-              <div className="cinematic-image-small">
-                <img src={planetendImg} alt="fictional world" />
+            <article className="cinematic-card">
+              <div className="cinematic-card-image">
+                <img src={treesImg} alt="Environmental metaphor" />
               </div>
-            </div>
+            </article>
+
+            <article className="cinematic-card">
+              <div className="cinematic-card-image">
+                <img src={planetendImg} alt="Realtime cinematic sequence" />
+              </div>
+            </article>
           </div>
 
           <div className="cinematic-feature-copy">
             <p>
-              Using a hybrid pipeline of traditional CG tools and Unreal Engine, the film evolved into a continuous cinematic journey through a stylised biological world.
+              Using a hybrid pipeline of traditional CG tools and Unreal Engine,
+              the film evolved into a continuous cinematic journey through a
+              stylised biological world.
             </p>
 
             <p>
-              The strength of the cinematic piece led the client to expand the same world, visual language and narrative into VR, creating an immersive companion experience that maintained consistency across both formats.
-            </p>
-          </div>
-        </div>
-
-        <div className="cinematic-bts">
-          <div className="cinematic-bts-image">
-            <img src={btsImage} alt="Behind the scenes in Unreal Engine" />
-          </div>
-
-          <div className="cinematic-bts-copy">
-            <p className="cinematic-bts-label">BEHIND THE SCENES</p>
-
-            <h3>
-              Directed inside Unreal Engine using realtime cinematic workflows.
-            </h3>
-
-            <p>
-              Working within Unreal Engine allowed cinematic sequences, environments and pacing to be refined interactively throughout development, supporting a more collaborative and flexible creative process.
+              The strength of the cinematic piece led the client to expand the
+              same world, visual language and narrative into VR, creating an
+              immersive companion experience that maintained consistency across
+              both formats.
             </p>
           </div>
         </div>

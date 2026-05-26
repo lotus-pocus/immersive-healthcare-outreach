@@ -68,3 +68,52 @@ iframe {
 body {
   overflow-x: hidden;
 }
+
+/* ---------- GLOBAL TYPOGRAPHY RHYTHM ---------- */
+
+p,
+li,
+span {
+  letter-spacing: 0.006em;
+}
+
+p {
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.012em;
+}
+
+.hero-eyebrow,
+.intro-label,
+.cinematic-label,
+.experience-label,
+.bts-label,
+.deployment-label,
+.markets-label,
+.impact-label,
+.related-label,
+.cta-footer-label,
+.anchor-nav a,
+.site-header-nav a {
+  letter-spacing: 0.16em;
+}
+
+.intro-copy p,
+.cinematic-feature-copy p,
+.bts-copy > p:last-child,
+.experience-heading > p:last-of-type,
+.experience-considerations p,
+.experience-card-copy p,
+.deployment-copy p,
+.deployment-accordion-content p,
+.deployment-events-grid span,
+.related-content p,
+.cta-footer-copy {
+  letter-spacing: 0.006em;
+  line-height: 1.65;
+}

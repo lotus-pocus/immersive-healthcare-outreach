@@ -10,7 +10,6 @@
 }
 
 .experience-heading {
-  max-width: 980px;
   margin-bottom: 90px;
 }
 
@@ -18,7 +17,7 @@
   font-size: 13px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(0, 0, 0, 0.45);
   margin-bottom: 28px;
 }
 
@@ -38,58 +37,126 @@
   font-weight: 900;
 }
 
-.experience-heading > p:last-child {
+.experience-heading > p:last-of-type {
   max-width: 760px;
+
   font-size: 22px;
+
   line-height: 1.55;
-  color: rgba(255, 255, 255, 0.72);
+
+  color: rgba(0, 0, 0, 0.68);
+
+  margin-bottom: 52px;
 }
 
 .experience-video-frame {
   position: relative;
-  overflow: hidden;
 
-  border: none;
+  overflow: hidden;
 
   background: #111;
 
-  margin-bottom: 34px;
-
   aspect-ratio: 16 / 9;
+
+  margin: 54px 0 64px;
 }
 
 .experience-video-frame iframe {
   position: absolute;
+
   inset: 0;
 
   width: 100%;
+
   height: 100%;
 
   border: 0;
 }
 
+/* CONSIDERATIONS */
+
+.experience-considerations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 72px;
+}
+
+.experience-considerations article {
+  background: #fff;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  padding: 24px;
+}
+
+.experience-considerations span {
+  display: block;
+
+  font-size: 13px;
+
+  letter-spacing: 0.16em;
+
+  color: rgba(0, 0, 0, 0.42);
+
+  margin-bottom: 22px;
+}
+
+.experience-considerations h3 {
+  font-family: "Tiempos", serif;
+
+  font-size: 24px;
+
+  line-height: 1.18;
+
+  letter-spacing: -0.01em;
+
+  margin-bottom: 18px;
+}
+
+.experience-considerations p {
+  font-size: 16px;
+
+  line-height: 1.75;
+
+  letter-spacing: 0.005em;
+
+  color: rgba(0, 0, 0, 0.68);
+}
+
+/* EXPERIENCE GRID */
+
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 
 .experience-card {
-  background: rgba(255, 255, 255, 0.035);
+  background: #fff;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
   overflow: hidden;
+
   min-width: 0;
 }
 
 .experience-card-image {
   aspect-ratio: 16 / 9;
+
   overflow: hidden;
+
   background: #111;
 }
 
 .experience-card-image img {
   width: 100%;
+
   height: 100%;
+
   object-fit: cover;
+
   display: block;
 }
 
@@ -107,8 +174,6 @@
   letter-spacing: -0.01em;
 
   margin-bottom: 18px;
-
-  max-width: 280px;
 }
 
 .experience-card-copy p {
@@ -118,14 +183,16 @@
 
   letter-spacing: 0.005em;
 
-  color: rgba(255, 255, 255, 0.72);
-
-  max-width: 320px;
+  color: rgba(0, 0, 0, 0.68);
 }
 
 /* TABLET */
 
 @media (max-width: 1100px) {
+  .experience-considerations {
+    grid-template-columns: 1fr;
+  }
+
   .experience-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -144,30 +211,49 @@
 
   .experience-heading h2 {
     font-size: 46px;
+
     line-height: 1.12;
+
     letter-spacing: -0.008em;
+
     margin-bottom: 30px;
   }
 
-  .experience-heading > p:last-child {
+  .experience-heading > p:last-of-type {
     font-size: 19px;
+
+    margin-bottom: 38px;
   }
 
-  .experience-video-frame {
-  position: relative;
-  overflow: hidden;
-  border-radius: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: #111;
-  margin-bottom: 34px;
-}
+  .experience-considerations {
+    gap: 16px;
+
+    margin-bottom: 48px;
+  }
+
+  .experience-considerations article {
+    padding: 22px;
+  }
+
+  .experience-considerations h3 {
+    font-size: 22px;
+  }
+
+  .experience-considerations p {
+    font-size: 15px;
+  }
 
   .experience-grid {
     grid-template-columns: 1fr;
+
     gap: 20px;
   }
 
   .experience-card-copy {
     padding: 22px;
   }
+
+  .experience-video-frame {
+  margin: 38px 0 48px;
+}
 }
