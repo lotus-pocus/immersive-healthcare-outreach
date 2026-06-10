@@ -1,24 +1,24 @@
 import "../styles/related-projects.css";
 
-import anatomicalImg from "../assets/images/AnatomicalLearning.jpg";
-import jlrImg from "../assets/images/JLR_Unipart.png";
+import bioscienceImage from "../assets/images/AnatomicalLearning.jpg";
+import trainingImage from "../assets/images/JLR_Unipart.png";
 
 const projects = [
   {
-    image: anatomicalImg,
     title: "VR Bioscience",
-    client: "Coventry University",
+    client: "COVENTRY UNIVERSITY",
     description:
       "An immersive educational platform designed to support anatomical learning and scientific exploration through VR.",
+    image: bioscienceImage,
     link: "https://www.gamoola.com/projects/vr-bioscience/",
   },
   {
-    image: jlrImg,
     title: "VR Training Platform",
-    client: "JLR + Unipart",
+    client: "JLR + UNIPART",
     description:
       "Realtime VR training environments developed for industrial learning and operational workflows.",
-    link: "https://www.gamoola.com/projects/jlr-gamoola/",
+    image: trainingImage,
+    link: "https://www.gamoola.com/projects/virtual-reality-training/",
   },
 ];
 
@@ -61,6 +61,39 @@ export default function RelatedProjectsSection() {
               </div>
             </a>
           ))}
+
+          <div className="related-project-featured">
+            <div className="related-project-video">
+              <iframe
+                src="https://player.vimeo.com/video/1196386450"
+                title="Adaptive immersive learning platform"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+
+            <div className="related-project-content">
+              <span className="related-project-type">
+                CONNECTED IMMERSIVE PLATFORM
+              </span>
+
+              <h3>Adaptive immersive learning platform</h3>
+
+              <p>
+                A connected immersive learning prototype combining VR,
+                WebGL and backend systems into a responsive multi-device
+                healthcare training platform.
+              </p>
+
+              <a
+                href="https://www.gamoola.com/lab_projects/adaptive-immersive-learning-platform/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View project
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

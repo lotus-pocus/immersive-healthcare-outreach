@@ -79,6 +79,13 @@ export default function DeploymentSection() {
                 headset-based formats.
               </p>
 
+              <p>
+                The platform continues to evolve through ongoing localisation,
+                congress deployment, approval updates and iterative refinements,
+                supporting repeated international rollout across multiple
+                healthcare markets.
+              </p>
+
               <div className="deployment-accordions">
                 <details className="deployment-accordion">
                   <summary>Compliance & approval workflows</summary>

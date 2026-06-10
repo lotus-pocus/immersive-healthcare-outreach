@@ -16,9 +16,12 @@ export default function ImpactSection() {
         <div className="impact-grid">
           <div className="impact-stat impact-stat-large">
             <strong>18K+</strong>
+
             <span>
               Healthcare professionals attending the launch congress environment
             </span>
+
+            <small>EULAR Barcelona 2025</small>
           </div>
 
           <div className="impact-stat">

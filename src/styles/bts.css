@@ -12,17 +12,31 @@
 .bts-intro-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(420px, 0.8fr);
-  gap: 64px;
+  gap: 72px;
   align-items: stretch;
 }
 
 .bts-copy {
-  background: rgba(255, 255, 255, 0.04);
-  padding: 44px;
-
+  padding: 0;
+  background: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.bts-copy-text {
+  max-width: 760px;
+}
+
+.bts-copy-text p {
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.005em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 34px;
+}
+
+.bts-copy-text p:last-child {
+  margin-bottom: 0;
 }
 
 .bts-label {
@@ -36,7 +50,7 @@
 .bts-copy h2 {
   font-family: "Tiempos", serif;
 
-  font-size: clamp(42px, 4.4vw, 72px);
+  font-size: clamp(40px, 4vw, 64px);
 
   line-height: 1.08;
 
@@ -47,30 +61,20 @@
   margin-bottom: 34px;
 }
 
-.bts-copy > p:last-child {
-  max-width: 720px;
-
-  font-size: 19px;
-
-  line-height: 1.7;
-
-  color: rgba(255, 255, 255, 0.68);
-}
-
 .bts-side-images {
   display: grid;
-  gap: 24px;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+  height: 100%;
 }
 
 .bts-side-images img {
   width: 100%;
-  aspect-ratio: 16 / 8;
-
+  height: 100%;
+  min-height: 0;
   object-fit: cover;
   object-position: center;
-
   display: block;
-
   background: #111;
 }
 
@@ -102,11 +106,7 @@
     font-size: 42px;
   }
 
-  .bts-copy > p:last-child {
-    font-size: 17px;
-  }
-
-  .bts-side-images {
+    .bts-side-images {
     grid-template-columns: 1fr;
     gap: 18px;
   }

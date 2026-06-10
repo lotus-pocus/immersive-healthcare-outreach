@@ -28,7 +28,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-description">
-          Developing both the cinematic CG content and immersive VR experience ensured visual consistency, narrative continuity and a unified healthcare storytelling approach across both formats.
+          Developing both the cinematic CG content and immersive VR experience ensured visual consistency, narrative continuity and a unified healthcare storytelling approach for congresses.
         </p>
 
         <div className="hero-proof">

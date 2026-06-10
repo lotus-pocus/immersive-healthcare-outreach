@@ -15,12 +15,20 @@ export default function BTSSection() {
               Directed inside Unreal Engine using realtime cinematic workflows.
             </h2>
 
-            <p>
-              Working within Unreal Engine allowed cinematic sequences,
-              environments and pacing to be refined interactively throughout
-              development, supporting a more collaborative and flexible creative
-              process.
-            </p>
+            <div className="bts-copy-text">
+              <p>
+                Combining traditional CG production techniques with Unreal
+                Engine realtime technology allowed environments, cinematic
+                sequences and pacing to be refined interactively throughout
+                development.
+              </p>
+
+              <p>
+                The hybrid workflow supported a more collaborative and flexible
+                creative process, enabling rapid iteration across visual
+                storytelling, atmosphere and experiential design.
+              </p>
+            </div>
           </div>
 
           <div className="bts-side-images">

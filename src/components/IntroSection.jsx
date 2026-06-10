@@ -11,15 +11,14 @@ export default function IntroSection() {
           <p className="intro-label">CASE STUDY</p>
 
           <h2 className="intro-heading">
-            A healthcare storytelling platform spanning cinematic realtime film
-            and immersive VR.
+            A healthcare story spanning cinematic CG film and immersive VR.
           </h2>
 
           <div className="intro-copy">
             <p>
-              Created with Havas Life for CSL, the project explored how
-              cinematic realtime storytelling could help communicate complex
-              scientific narratives within healthcare environments.
+              Created alongside Havas Life for CSL, Gamoola developed both the cinematic
+              CG film and immersive VR experience as part of a connected healthcare
+              storytelling platform designed for congress and event audiences.
             </p>
 
             <p>
