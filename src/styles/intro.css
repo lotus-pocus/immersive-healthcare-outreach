@@ -134,3 +134,22 @@
     gap: 22px;
   }
 }
+
+/* MOBILE LANDSCAPE */
+
+@media (max-width: 900px) and (orientation: landscape) {
+  .intro-section {
+    padding: 70px 24px;
+  }
+
+  .intro-heading {
+    font-size: 38px;
+    line-height: 1.05;
+    margin-bottom: 32px;
+  }
+
+  .intro-copy p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
